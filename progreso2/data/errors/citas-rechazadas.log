@@ -1,0 +1,1 @@
+2026-06-05T00:45:24.188471100 | motivo=paciente obligatorio | datos=CitaRequest(idCita=C-1002, paciente=, correo=maria.lopez@example.com, especialidad=Dermatología, fechaCita=2026-06-12T11:00, sede=Sede Norte, valor=0.0)
