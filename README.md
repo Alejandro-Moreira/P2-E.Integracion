@@ -102,7 +102,7 @@ Falta el campo `paciente` y `valor` es cero:
 ## Evidencia esperada para verificar el funcionamiento
 
 1. Respuesta HTTP `200 OK` al enviar un request válido a `POST /api/citas`.
-![Postman] (image.png)
+![Postman](image.png)
 
 2. Archivo `data/outbox/auditoria-citas.csv` contiene la línea del registro de cita.
 ![Outbox](image-1.png)
@@ -115,5 +115,4 @@ Falta el campo `paciente` y `valor` es cero:
 
 5. En caso de request inválido, la API responde `400 Bad Request` y el archivo `data/errors/citas-rechazadas.log` registra el rechazo.
 ![Fallo](image-4.png)
-
 ![Carpeta](image-5.png)
